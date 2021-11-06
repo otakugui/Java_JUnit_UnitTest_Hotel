@@ -13,6 +13,7 @@ public class RoomTest {
         //T - Teste - Execução do Testel
         Room RoomLuxo = Room(NumberofRoom, NameofRoom, ValorPerDay);
         
+        
         //R - Resultado - Validação de Resultado
         assertEquals(NumberofRoom, RoomLuxo.getId());
         assertEquals(NameofRoom, RoomLuxo.getName() );
