@@ -18,5 +18,4 @@ public class RoomTest {
         assertEquals(NameofRoom, RoomLuxo.getName() );
         assertEquals(ValorPerDay, RoomLuxo.getPricePerDay() );
     }
-
 }
