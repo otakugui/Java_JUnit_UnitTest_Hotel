@@ -14,5 +14,4 @@ public class ClientTest {
         assertEquals(1, client.getId());
         assertEquals("Fulano", client.getName());
     }
-
 }
