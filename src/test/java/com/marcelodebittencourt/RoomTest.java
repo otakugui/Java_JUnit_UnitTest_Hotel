@@ -15,7 +15,7 @@ public class RoomTest {
         
         //R - Resultado - Validação de Resultado
         assertEquals(NumberofRoom, RoomLuxo.getId());
-        assertEquals(NameofRoom, RoomLuxo.getName() );
-        assertEquals(ValorPerDay, RoomLuxo.getPricePerDay() );
+        assertEquals(NameofRoom, RoomLuxo.getName());
+        assertEquals(ValorPerDay, RoomLuxo.getPricePerDay());
     }
 }
