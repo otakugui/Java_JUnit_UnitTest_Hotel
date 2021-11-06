@@ -11,7 +11,7 @@ public class RoomTest {
         double ValorPerDay = 500;
 
         //T - Teste - Execução do Testel
-        Room RoomLuxo = Room(NumberofRoom, NameofRoom, ValorPerDay);
+        Room RoomLuxo = new Room(NumberofRoom, NameofRoom, ValorPerDay);
         
         //R - Resultado - Validação de Resultado
         assertEquals(NumberofRoom, RoomLuxo.getId());
